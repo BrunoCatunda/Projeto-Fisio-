@@ -231,24 +231,20 @@ fieldset{
 /* serviços */
 
 
-.my-service{
+.my-service{ padding: 10px;
     background-color: white;
     width: 100%;
     margin: auto;
-    margin-top: 3em;
     text-align: center;
     margin-bottom: 3em;}
 
 .list-service{
+        
         margin: auto;
         width: 100%;
-        
-        list-style: none;
         display: flex;  
-        flex-wrap: wrap;
-        
         justify-content: center;
-        overflow: auto;}
+        }
         
 .service{   border-radius: 20px;
             color: white;
