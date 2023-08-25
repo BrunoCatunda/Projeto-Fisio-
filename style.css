@@ -59,7 +59,7 @@ a{
     background-color: rgb(255, 101, 1);
     padding: 5px;
     border-radius: 20px;}
-@media screen and (max-width: 500px){  
+@media screen and (max-width: 760px){  
        .top-bar{  
         position: sticky;
         top: -4.5em;
@@ -109,6 +109,7 @@ a{
     justify-content:center ;}
 
 .manual-btn{
+    background-color: rgba(1, 24, 100, 0.535) ;
     border: 1px solid #000000a7;
     padding: 5px;
     border-radius: 10px;
@@ -134,17 +135,6 @@ a{
 
 #radio4:checked ~.first{
     margin-left:-75% ;}
-
-
-.navigation-auto div{
-    border: 1px solid rgba(0, 0, 0, 0.68);
-    padding: 5px;
-    border-radius:10px;
-    cursor: pointer;
-    transition: 1s;}
-
-
-
 
     @media screen and (max-width: 800px){  
             .slider{
@@ -253,7 +243,7 @@ fieldset{
             width: 10em;
             height: 200px;
             background-color: rgb(1, 24, 100);
-            margin-left: 15px;
+            margin-left: 1em;
 }
 
 
