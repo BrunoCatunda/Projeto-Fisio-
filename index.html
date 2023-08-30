@@ -6,7 +6,7 @@
     <title>Danrlei Lopes - Fisioterapeuta</title>
     <link rel="stylesheet" href="./style.css">
     <link rel="shortcut icon" href="./imag/icon-32px.png" type="icon">
-
+    <script src="./modal.js" defer></script>
 </head>
 <body>
 
@@ -19,7 +19,7 @@
                 Danrlei <br>
                 Lopes   
             </h1> 
-            <h2 class="sub">Fisioterapeuta  </h2>
+            <h2 class="sub">Fisioterapeuta</h2>
         </div>
        
         <div class="menu">
@@ -83,16 +83,40 @@
                 <h2 class="title"><fieldset><legend>Nossos Serviços</legend></fieldset></h2>
 
                 <div class="list-service">
-                    <div class="service">
-                        <h3>serviço 1</h3>
-                        <p>descrição </p>
-                        <a class="button" href="">Saiba Mais</a>
-                    </div>
+                    <div class="service"> 
+                        <h3>Quiropraxia</h3>
+                        <button id="open-modal" class="open-modal">Saiba Mais</button>
+                        <div id="fade" class="hide fade"></div>
+                        <div id="modal" class="hide modal">
+                            <div class="modal-header">
+                                <h2>Quiropraxia</h2> 
+                                <button><a href="https://api.whatsapp.com/send?phone=5588996146190" target="_blank">Agendar Consulta</a></button>
+                                <button id="close-modal">Fechar</button>
+                            </div>   
+                            <div class="modal-body">    
+                                <p>
+                                    A quiropraxia é uma profissão na área de saúde que se dedica ao diagnóstico, tratamento e prevenção de problemas do sistema neuro-músculo-esquelético, ou seja, que envolvem as articulações, músculos, tendões, ossos, nervos e outras estruturas responsáveis pelo movimento do corpo, bem como os efeitos destas alterações ...
+                                </p>               
+                            </div>
+                        </div>
+                   </div>
 
                     <div class="service">
-                        <h3>serviço 2</h3>
-                        <p>descrição</p> 
-                         <a class="button" href="">Saiba Mais</a>
+                        <h3>Escoliose</h3>
+                        <button id="open-modaltwo" class="open-modal">Saiba Mais</button>
+                        <div id="fadetwo" class="hide fade"></div>
+                        <div id="modaltwo" class="hide modal">
+                            <div class="modal-header">
+                                <h2>Escoliose</h2> 
+                                <button><a href="https://api.whatsapp.com/send?phone=5588996146190" target="_blank">Agendar Consulta</a></button>
+                                <button id="close-modaltwo">Fechar</button>
+                            </div>   
+                            <div class="modal-body">    
+                                <p>
+                                    O que é escoliose? A escoliose é um encurtamento da coluna causado por uma curvatura lateral. Normalmente, a coluna vertebral é reta e alinhada. Quando o paciente tem escoliose, a coluna acaba fazendo uma curva para um dos lados, em forma de “C” ou “S”, que pode causar problemas ao paciente.
+                                </p>               
+                            </div>
+                        </div>
                     </div>
 
                     <div class="service">
@@ -110,25 +134,25 @@
 
                 <div class="list-service" style="margin-top: 1em;">
                     <div class="service">
-                        <h3>serviço 1</h3>
+                        <h3>serviço 5</h3>
                         <p>descrição </p>
                         <a class="button" href="">Saiba Mais</a>
                     </div>
 
                     <div class="service">
-                        <h3>serviço 2</h3>
+                        <h3>serviço 6</h3>
                         <p>descrição</p> 
                          <a class="button" href="">Saiba Mais</a>
                     </div>
 
                     <div class="service">
-                        <h3>serviço 3</h3>
+                        <h3>serviço 7</h3>
                         <p>descrião. </p>
                         <a class="button" href="">Saiba Mais</a>
                     </div>
 
                     <div class="service">
-                        <h3>serviço 4</h3>
+                        <h3>serviço 8</h3>
                         <p>descrião. </p>
                         <a class="button" href="">Saiba Mais</a>
                     </div>                                              
