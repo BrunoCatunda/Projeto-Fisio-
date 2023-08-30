@@ -268,13 +268,12 @@ fieldset{
 
 
 
-            .button{
+                    .button{width: 5em;                        
                             font-size: 1em;
                             color: white;
                             background-color: rgb(255, 101, 1);
-                            padding: 2px;
-                            border-radius: 20px;
-                            border: none;
+                            padding: 0;
+                            border-radius: 20px;                   
                             border-radius: 0.25em;
                             cursor: pointer;
                             opacity: .9;
